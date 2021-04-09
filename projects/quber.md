@@ -2,7 +2,7 @@
 title: Quber
 layout: project
 repo: https://github.com/NonlinearFruit/Quber
-image: https://github.com/NonlinearFruit/Quber/blob/master/screenshots/quber_logo.png
+image: https://github.com/NonlinearFruit/Quber/blob/master/screenshots/quber_logo.png?raw=true
 ---
 
 # Quber
