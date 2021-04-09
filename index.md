@@ -19,7 +19,7 @@ There are a couple resources that I particularly enjoy using:
 ## Creating
 Here are some things I have created:
 
- - [Quber](/quber.html)
+ - [Quber](/projects/quber.html)
  - Minecraft (3,2) turing machine
  - [Domino logic gates](https://codegolf.stackexchange.com/questions/82938/golf-all-the-16-logic-gates-with-2-inputs-and-1-output/91472#91472)
  - [Minimalist Password Manager](https://gist.github.com/NonlinearFruit/7b6f72f97f0d70086f3f229fbf23850f)
