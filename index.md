@@ -2,8 +2,8 @@
 
 {% for page in site.pages %}
   {% if page.path contains 'project' %}
-  {% assign default_description = site.github.public_repositories | find: "html_url", page.repo | description %}
-- [{{ page.title }}]({{ page.url }}) » {{ page.description | default: default_description }}
+    {% assign repo = site.github.public_repositories | where: "html_url", page.repo %}
+- [{{ page.title }}]({{ page.url }}) » {{ page.description | default: repo.first.description }}
   {% endif %}
 {% endfor %}
 
