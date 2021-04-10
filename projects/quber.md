@@ -10,6 +10,7 @@ badges:
   - https://api.codeclimate.com/v1/badges/74c2c9f1864e1ec37987/maintainability
   - https://img.shields.io/github/stars/NonlinearFruit/Quber
   - https://img.shields.io/github/issues/NonlinearFruit/Quber
+  - https://img.shields.io/github/last-commit/NonlinearFruit/Quber
 ---
 
 Simple library for playing with Rubik's cubes in the terminal or programmatically.
