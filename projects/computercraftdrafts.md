@@ -11,8 +11,16 @@ badges:
 
 {% for repository in site.github.public_repositories %}
   {% if repository.html_url == page.repo %}
+    - MATCH Found
     {% assign page.description = repository.description %}
   {% endif %}
 {% endfor %}
+- {{ page.description }}
 
 Software written and TDD'd in Minecraft (via the mod ComputerCraft)
+
+{% for p in site.pages %}
+  {% if p.repo == page.repo %}
+    - {{ page.description }}
+  {% endif %}
+{% endfor %}
