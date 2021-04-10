@@ -2,8 +2,7 @@
 
 {% for page in site.pages %}
   {% if page.path contains 'project' %}
-    {% assign repo = site.github.public_repositories | where: "html_url", page.repo %}
-- [{{ page.title }}]({{ page.url }}) » {{ page.description | default: repo.first.description }}
+    {% include project-template.md project=page %}
   {% endif %}
 {% endfor %}
 
