@@ -1,3 +1,10 @@
+# Projects
+
+{% for page in site.pages %}
+  {% if page.path contains 'project' %}
+    - ![[page.title](page.path)](page.image)
+  {% endif %}
+{% endfor %}
 
 # About Me
 I love learning, creating and merrymaking. Maybe the best way to summarize is through some examples.
