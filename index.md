@@ -6,6 +6,18 @@
   {% endif %}
 {% endfor %}
 
+# Github Repos
+
+{% for repository in site.github.public_repositories %}
+ - [{{ repository.name }}]({{ repository.html_url }}) » {{ repository.description }}
+{% endfor %}
+
+# Github Object
+
+```json
+{{ site.github }}
+```
+
 # About Me
 I love learning, creating and merrymaking. Maybe the best way to summarize is through some examples.
 
