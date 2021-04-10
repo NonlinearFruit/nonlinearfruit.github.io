@@ -2,7 +2,7 @@
 
 {% for page in site.pages %}
   {% if page.path contains 'project' %}
-- [{{ page.title }}]({{ page.url }}) » {{ page.description }}
+- [{{ page.title }}]({{ page.url }}) » {{ page.description | default: "<no description>" }}
   {% endif %}
 {% endfor %}
 
