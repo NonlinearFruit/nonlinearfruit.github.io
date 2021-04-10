@@ -24,9 +24,10 @@
       <p class="tagline" align="center"><img src="{{ page.image }}" width="200" height="200"/></p>
       <div id="main" role="main">
         <div class="download-bar">
-          This is the downloads
         <div class="inner">
-          This is the inner
+          {% for badge in page.badges %}
+            <img alt="build" src="{{ badge }}"/>
+          {% endfor %}
         </div>
         <span class="blc"></span><span class="trc"></span>
         </div>
