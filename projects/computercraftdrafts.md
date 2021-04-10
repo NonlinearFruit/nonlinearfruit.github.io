@@ -11,7 +11,7 @@ badges:
 
 {% for repository in site.github.public_repositories %}
   {% if repository.html_url == page.repo %}
-    {% assign description = repository.description %}
+    {% assign page.description = repository.description %}
   {% endif %}
 {% endfor %}
 
