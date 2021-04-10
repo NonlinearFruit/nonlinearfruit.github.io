@@ -2,7 +2,7 @@
 
 {% for page in site.pages %}
   {% if page.path contains 'project' %}
-- ![[page.title](page.path)](page.image)
+- ![[{{ page.title }}]({{ page.path }})]({{ page.image }})
   {% endif %}
 {% endfor %}
 
