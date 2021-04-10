@@ -7,6 +7,7 @@ badges:
   - https://img.shields.io/github/languages/top/NonlinearFruit/dotfiles
   - https://img.shields.io/github/stars/NonlinearFruit/dotfiles
   - https://img.shields.io/github/issues/NonlinearFruit/dotfiles
+  - https://img.shields.io/github/last-commit/NonlinearFruit/dotfiles
 ---
 
 # Dotfiles
