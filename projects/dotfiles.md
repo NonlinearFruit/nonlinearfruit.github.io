@@ -10,6 +10,4 @@ badges:
   - https://img.shields.io/github/last-commit/NonlinearFruit/dotfiles
 ---
 
-# Dotfiles
-
 A home for all my eccentric configs
