@@ -2,7 +2,7 @@
 
 {% for page in site.pages %}
   {% if page.path contains 'project' %}
-- [{{ page.title }}]({{ page.path }})
+- [{{ page.title }}]({{ page.url }})
   {% endif %}
 {% endfor %}
 
@@ -22,11 +22,11 @@ There are a couple resources that I particularly enjoy using:
  - [Crash Course](https://www.youtube.com/user/crashcourse)
  - [Open Courseware](https://ocw.mit.edu/courses/find-by-topic/)
  - [Project Euler](https://projecteuler.net)
+ - [Programming Puzzles and Code Golf](https://codegolf.stackexchange.com)
  
 ## Creating
 Here are some things I have created:
 
- - [Quber](/projects/quber.html)
  - Minecraft (3,2) turing machine
  - [Domino logic gates](https://codegolf.stackexchange.com/questions/82938/golf-all-the-16-logic-gates-with-2-inputs-and-1-output/91472#91472)
  - [Minimalist Password Manager](https://gist.github.com/NonlinearFruit/7b6f72f97f0d70086f3f229fbf23850f)
