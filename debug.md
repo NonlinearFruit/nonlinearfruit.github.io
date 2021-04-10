@@ -1,3 +1,7 @@
+---
+title: debug
+layout: project
+---
 
 # Github Repos
 
