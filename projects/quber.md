@@ -1,16 +1,15 @@
 ---
 title: Quber
 layout: project
-repo: https://github.com/NonlinearFruit/Quber
-image: https://github.com/NonlinearFruit/Quber/blob/master/screenshots/quber_logo.png?raw=true
+repo: https://github.com/NonlinearFruit/quber
+image: https://github.com/NonlinearFruit/quber/blob/master/screenshots/quber_logo.png?raw=true
 badges:
-  - https://img.shields.io/github/languages/top/NonlinearFruit/Quber
-  - https://img.shields.io/github/workflow/status/NonlinearFruit/Quber/dotnet-core
-  - https://img.shields.io/codecov/c/gh/NonlinearFruit/Quber.svg
-  - https://api.codeclimate.com/v1/badges/74c2c9f1864e1ec37987/maintainability
-  - https://img.shields.io/github/stars/NonlinearFruit/Quber
-  - https://img.shields.io/github/issues/NonlinearFruit/Quber
-  - https://img.shields.io/github/last-commit/NonlinearFruit/Quber
+  - https://img.shields.io/github/languages/top/NonlinearFruit/quber
+  - https://img.shields.io/github/actions/workflow/status/NonlinearFruit/quber/dotnet-core.yml?branch=master
+  - https://img.shields.io/codecov/c/gh/NonlinearFruit/quber.svg
+  - https://img.shields.io/github/stars/NonlinearFruit/quber
+  - https://img.shields.io/github/issues/NonlinearFruit/quber
+  - https://img.shields.io/github/last-commit/NonlinearFruit/quber
 ---
 
 Simple library for playing with Rubik's cubes in the terminal or programmatically.
