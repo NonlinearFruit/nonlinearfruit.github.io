@@ -1,6 +1,5 @@
 ---
 title: Creeds.json
-layout: project
 repo: https://github.com/NonlinearFruit/Creeds.json
 image: https://github.com/NonlinearFruit/Creeds/blob/master/metadata/creeds_logo.png?raw=true
 badges:

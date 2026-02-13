@@ -1,6 +1,5 @@
 ---
 title: Quber
-layout: project
 repo: https://github.com/NonlinearFruit/quber
 image: https://github.com/NonlinearFruit/quber/blob/master/screenshots/quber_logo.png?raw=true
 badges:

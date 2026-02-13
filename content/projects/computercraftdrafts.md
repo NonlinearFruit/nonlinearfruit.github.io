@@ -1,6 +1,5 @@
 ---
 title: ComputerCraft Drafts
-layout: project
 repo: https://github.com/NonlinearFruit/ComputerCraftDrafts
 image: https://github.com/NonlinearFruit/ComputerCraftDrafts/blob/master/.icon.png?raw=true
 badges:

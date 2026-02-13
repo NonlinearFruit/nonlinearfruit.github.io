@@ -1,6 +1,5 @@
 ---
 title: Project Euler
-layout: project
 repo: https://github.com/NonlinearFruit/project-euler
 image: https://projecteuler.net/profile/NonlinearFruit.png
 badges:

@@ -1,6 +1,5 @@
 ---
 title: Dotfiles
-layout: project
 repo: https://github.com/NonlinearFruit/dotfiles
 image: https://github.com/NonlinearFruit/dotfiles/blob/master/.icon.png?raw=true
 badges:
