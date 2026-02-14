@@ -1,0 +1,11 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+body > footer {
+  display: flex;
+  column-gap: 1rem;
+  background-color: gray;
+  padding: 1rem;
+}

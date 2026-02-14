@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
+  <meta name="description" content="A peek into the thoughts of NonlinearFruit" />
+  <link rel="stylesheet" href="{{ relURL "styles.css" }}">
   <title>{{ if .IsHome }}{{ else if .Title }}{{ .Title }} - {{ end }}{{ site.Title }}</title>
 </head>
 <body>
@@ -14,18 +15,20 @@
     {{ block "main" . }}{{ end }}
   </main>
   <footer>
-    <a href="https://github.com/NonlinearFruit">
-      <img src="https://github.com/NonlinearFruit.png" width="48" height="48">
-    </a>
-    <p>View <a href="https://github.com/NonlinearFruit">NonlinearFruit</a> on <a href="https://github.com">GitHub</a></p>
+    <div>
+      <a href="https://github.com/NonlinearFruit">
+        <img src="https://github.com/NonlinearFruit.png" width="48" height="48">
+      </a>
+    </div>
+    <div>
+      <p>View <a href="https://github.com/NonlinearFruit">NonlinearFruit</a> on <a href="https://github.com">GitHub</a></p>
+    </div>
   </footer>
   <!-- custom background -->
   <!-- code from https://codepen.io/asfarmed/pen/cfslr -->
   <!-- image from https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png -->
   <style>
     body{
-      margin:0;
-      padding:0;
       font-family:"arial",heletica,sans-serif;
       font-size:12px;
       background: #DCDCDC url('{{ relURL "tile-able-background-gray.png" }}') repeat 0 0;
