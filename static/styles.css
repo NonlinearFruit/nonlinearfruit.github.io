@@ -6,10 +6,38 @@ body {
 body > header, footer {
   display: flex;
   column-gap: 1rem;
-  background-color: gray;
+  background-color: #222;
+  color: #d6d6d6;
   padding: 1rem;
+  border: 5px solid #444;
+  align-items: center;
+}
+
+body > header {
+  justify-content: center;
 }
 
 body > main {
   background-color: white;
+  padding: 1rem;
 }
+
+a {
+  color: #90D355;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  border: 5px solid #666;
+  margin: 5px;
+}
+
+footer a {
+  font-size: 16px;
+  font-style: italic;
+}
+

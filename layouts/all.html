@@ -1,18 +1,22 @@
 {{ define "main" }}
   {{ if eq .Kind "home" }}
     {{ .Content }}
-    {{ range .Site.RegularPages }}
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ end }}
+    <ul>
+      {{ range .Site.RegularPages }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> » {{ .Description }}</li>
+      {{ end }}
+    </ul>
   {{ else if eq .Kind "page" }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
   {{ else if in (slice "section" "taxonomy" "term") .Kind }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    {{ range .Pages }}
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ end }}
+    <ul>
+      {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> » {{ .Description }}</li>
+      {{ end }}
+    </ul>
   {{ else }}
     {{ errorf "Unsupported page kind: %s" .Kind }}
   {{ end }}

@@ -1,6 +1,7 @@
 ---
 title: Creeds.json
 repo: https://github.com/NonlinearFruit/Creeds.json
+description: Structured copies of Reformed creeds, confessions and catechisms
 image: https://github.com/NonlinearFruit/Creeds/blob/master/metadata/creeds_logo.png?raw=true
 badges:
   - https://img.shields.io/github/languages/top/NonlinearFruit/Creeds.json.png

@@ -1,6 +1,7 @@
 ---
 title: Quber
 repo: https://github.com/NonlinearFruit/quber
+description: Playing with Rubik's Cubes
 image: https://github.com/NonlinearFruit/quber/blob/master/screenshots/quber_logo.png?raw=true
 badges:
   - https://img.shields.io/github/languages/top/NonlinearFruit/quber

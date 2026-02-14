@@ -1,6 +1,7 @@
 ---
 title: ComputerCraft Drafts
 repo: https://github.com/NonlinearFruit/ComputerCraftDrafts
+description: Iterations of my computercraft creations
 image: https://github.com/NonlinearFruit/ComputerCraftDrafts/blob/master/.icon.png?raw=true
 badges:
   - https://img.shields.io/github/languages/top/NonlinearFruit/ComputerCraftDrafts

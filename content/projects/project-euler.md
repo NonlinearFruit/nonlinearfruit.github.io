@@ -1,6 +1,7 @@
 ---
 title: Project Euler
 repo: https://github.com/NonlinearFruit/project-euler
+description: Solving math-y problems for fun
 image: https://projecteuler.net/profile/NonlinearFruit.png
 badges:
   - https://img.shields.io/github/languages/top/NonlinearFruit/project-euler

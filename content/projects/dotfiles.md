@@ -1,6 +1,7 @@
 ---
 title: Dotfiles
 repo: https://github.com/NonlinearFruit/dotfiles
+description: A simple repo that elegantly manages my configs and scripts
 image: https://github.com/NonlinearFruit/dotfiles/blob/master/.icon.png?raw=true
 badges:
   - https://img.shields.io/github/languages/top/NonlinearFruit/dotfiles
