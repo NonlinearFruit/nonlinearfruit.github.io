@@ -2,7 +2,7 @@
   {{ if eq .Kind "home" }}
     {{ .Content }}
     <ul>
-      {{ range .Site.RegularPages }}
+      {{ range where .Site.RegularPages "Section" "projects" }}
         <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> » {{ .Description }}</li>
       {{ end }}
     </ul>
