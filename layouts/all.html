@@ -6,17 +6,26 @@
         <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> » {{ .Description }}</li>
       {{ end }}
     </ul>
-  {{ else if eq .Kind "page" }}
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
   {{ else if in (slice "section" "taxonomy" "term") .Kind }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
     <ul>
       {{ range .Pages }}
         <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> » {{ .Description }}</li>
+     {{ end }}
+    </ul>
+  {{ else if eq .Section "projects" }}
+    <img src="{{ .Params.image }}" />
+    <h1><a href="{{ .Params.repo }}">{{ .Title }}</a></h1>
+    {{ .Content }}
+    <ul>
+      {{ range .Params.badges }}
+        <li><img src="{{ . }}" /></li>
       {{ end }}
     </ul>
+  {{ else if eq .Kind "page" }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
   {{ else }}
     {{ errorf "Unsupported page kind: %s" .Kind }}
   {{ end }}
