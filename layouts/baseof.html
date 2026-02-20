@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <h1>NonlinearFruit</h1>
+    {{ block "header" . }}{{ end }}
   </header>
   <main>
     {{ block "main" . }}{{ end }}
@@ -21,6 +21,12 @@
       </a>
     </div>
     <div>
+      <ul id="breadcrumbs">
+        {{ range .Ancestors.Reverse }}
+          <li><a href="{{ .RelPermalink }}">{{ if .IsHome }}~{{ else if .Title }}{{ .Title }}{{ end }}</a></li>
+        {{ end }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      </ul>
       <p>View <a href="https://github.com/NonlinearFruit">NonlinearFruit</a> on <a href="https://github.com">GitHub</a></p>
     </div>
   </footer>

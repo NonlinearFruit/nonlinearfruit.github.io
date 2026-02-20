@@ -14,7 +14,17 @@ body > header, footer {
 }
 
 body > header {
+  margin: 2rem 0 0 0;
   justify-content: center;
+  flex-direction: column;
+}
+
+body > header > .badges {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  column-gap: 0.5rem;
 }
 
 body > main {
@@ -41,3 +51,28 @@ footer a {
   font-style: italic;
 }
 
+footer a {
+  font-size: 16px;
+  font-style: italic;
+}
+
+footer > div > *{
+  margin: 0;
+}
+
+footer > div {
+  flex-direction: column;
+  row-gap: 0.5 rem;
+}
+
+#breadcrumbs {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  column-gap: 0;
+}
+
+#breadcrumbs li + li::before {
+  content: '/';
+}

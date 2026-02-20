@@ -1,4 +1,7 @@
-# About Me
+---
+title: About Me
+---
+
 I love learning, creating and merrymaking. Maybe the best way to summarize is through some examples.
 
 ## Learning
@@ -47,6 +50,6 @@ IT is basically the trickshot-reproducing basketball game, HORSE. Only `s/basket
 
 Kind of an onsite work focus here. I have also iterated on remote merrymaking (eg: pairing container) and would love to talk about it. Could be a good interview question :thinking:
 
-# Also See
+## Also See
 - [Stackoverflow](https://stackoverflow.com/users/4769802/nonlinearfruit?tab=profile)
 - [Github](https://github.com/NonlinearFruit)

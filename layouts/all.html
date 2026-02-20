@@ -1,3 +1,23 @@
+{{ define "header" }}
+  {{ if eq .Kind "home" }}
+    <h1>NonlinearFruit</h1>
+  {{ else if in (slice "section" "taxonomy" "term") .Kind }}
+    <h1>{{ .Title }}</h1>
+  {{ else if eq .Section "projects" }}
+    <img src="{{ .Params.image }}" />
+    <h1><a href="{{ .Params.repo }}">{{ .Title }}</a></h1>
+    <ul class="badges">
+      {{ range .Params.badges }}
+        <li><img src="{{ . }}" /></li>
+      {{ end }}
+    </ul>
+  {{ else if eq .Kind "page" }}
+    <h1>{{ .Title }}</h1>
+  {{ else }}
+    {{ errorf "Unsupported page kind: %s" .Kind }}
+  {{ end }}
+{{ end }}
+
 {{ define "main" }}
   {{ if eq .Kind "home" }}
     {{ .Content }}
@@ -7,7 +27,6 @@
       {{ end }}
     </ul>
   {{ else if in (slice "section" "taxonomy" "term") .Kind }}
-    <h1>{{ .Title }}</h1>
     {{ .Content }}
     <ul>
       {{ range .Pages }}
@@ -15,16 +34,8 @@
      {{ end }}
     </ul>
   {{ else if eq .Section "projects" }}
-    <img src="{{ .Params.image }}" />
-    <h1><a href="{{ .Params.repo }}">{{ .Title }}</a></h1>
     {{ .Content }}
-    <ul>
-      {{ range .Params.badges }}
-        <li><img src="{{ . }}" /></li>
-      {{ end }}
-    </ul>
   {{ else if eq .Kind "page" }}
-    <h1>{{ .Title }}</h1>
     {{ .Content }}
   {{ else }}
     {{ errorf "Unsupported page kind: %s" .Kind }}
