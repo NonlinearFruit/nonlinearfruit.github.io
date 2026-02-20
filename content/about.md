@@ -8,29 +8,29 @@ I love learning, creating and merrymaking. Maybe the best way to summarize is th
 Best gems I've found that I would highly recommend to past-me.
 
 - Persons:
-    0. Robert Martin
-    1. Dave Farley
-    2. Kevlin Henney
-    3. Kent Beck
+    1. Robert Martin
+    2. Dave Farley
+    3. Kevlin Henney
+    4. Kent Beck
 - Articles:
-    0. Manual Work is a Bug by Thomas Limoncelli
-    1. Stop asking "What problem are we trying to solve?" by Ben Crothers
-    2. How to transform by DORA
+    1. Manual Work is a Bug by Thomas Limoncelli
+    2. Stop asking "What problem are we trying to solve?" by Ben Crothers
+    3. How to transform by DORA
 - Books:
-    0. Accelerate: The Science behind Devops by Jez Humble
-    1. Extreme Programming Explained by Kent Beck
-    2. Clean Coder by Robert Martin
+    1. Accelerate: The Science behind Devops by Jez Humble
+    2. Extreme Programming Explained by Kent Beck
+    3. Clean Coder by Robert Martin
 - Talks:
-    0. Scribe's Oath by Robert Martin
-    1. Agility != Speed by Kevlin Henney
+    1. Scribe's Oath by Robert Martin
+    2. Agility != Speed by Kevlin Henney
     3. Make Impacts Not Software by Gojko Adzic
-    2. Metrics, Metrics, Everywhere by Coda Hale
+    4. Metrics, Metrics, Everywhere by Coda Hale
 - Websites:
-    0. [Katas](https://github.com/exercism/problem-specifications/tree/main/exercises)
-    1. [Programming Puzzles and Code Golf](https://codegolf.stackexchange.com)
-    2. [Project Euler](https://projecteuler.net)
-    3. [Open Courseware](https://ocw.mit.edu/courses/find-by-topic/)
-    4. [Vim Golf](https://www.vimgolf.com)
+    1. [Katas](https://github.com/exercism/problem-specifications/tree/main/exercises)
+    2. [Programming Puzzles and Code Golf](https://codegolf.stackexchange.com)
+    3. [Project Euler](https://projecteuler.net)
+    4. [Open Courseware](https://ocw.mit.edu/courses/find-by-topic/)
+    5. [Vim Golf](https://www.vimgolf.com)
 
 ## Creating
 Fun things I have created that aren't on GitHub (yet):
