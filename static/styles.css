@@ -5,6 +5,8 @@ body {
 
 body > header, footer {
   display: flex;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
   column-gap: 1rem;
   background-color: #222;
   color: #d6d6d6;
@@ -14,7 +16,7 @@ body > header, footer {
 }
 
 body > header {
-  margin: 2rem 0 0 0;
+  margin-top: 2rem;
   justify-content: center;
   flex-direction: column;
 }
@@ -41,26 +43,26 @@ a:hover {
   text-decoration: underline;
 }
 
-footer img {
+body > footer img {
   border: 5px solid #666;
   margin: 5px;
 }
 
-footer a {
+body > footer a {
   font-size: 16px;
   font-style: italic;
 }
 
-footer a {
+body > footer a {
   font-size: 16px;
   font-style: italic;
 }
 
-footer > div > *{
+body > footer > div > *{
   margin: 0;
 }
 
-footer > div {
+body > footer > div {
   flex-direction: column;
   row-gap: 0.5 rem;
 }
