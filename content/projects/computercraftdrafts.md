@@ -12,4 +12,6 @@ params:
       - https://img.shields.io/github/last-commit/NonlinearFruit/ComputerCraftDrafts
 ---
 
-Software written and TDD'd in Minecraft (via the mod ComputerCraft). A very basic test runner that enables simple test suites which allows developers to make changes without fear.
+Software written and TDD'd in Minecraft (via the mod ComputerCraft).
+A very basic test runner that enables simple test suites which
+allows developers to make changes without fear.

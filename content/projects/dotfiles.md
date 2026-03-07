@@ -11,4 +11,8 @@ params:
       - https://img.shields.io/github/last-commit/NonlinearFruit/dotfiles
 ---
 
-A home for all my eccentric configs, managed in my own eccentric way
+Open source dotfiles have been a joy to read and a treasure trove of hidden
+gems. This is my small contribution back to the community. A hodge podge of
+configuration plundered from the four corners of the internet (with attribution
+in the commit when I remember), forged by daily blood, sweat and tears into a
+haven of sanity for my particular kind of crazy.
